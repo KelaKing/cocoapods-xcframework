@@ -1,0 +1,7 @@
+.DS_Store
+pkg
+.idea/
+vendor
+.bundle
+*.gem
+*.gemspec
