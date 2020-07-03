@@ -103,7 +103,7 @@ DEPENDENCIES
   mocha
   mocha-on-bacon
   prettybacon
-  rake (~> 13.0)
+  rake
 
 BUNDLED WITH
    1.17.0
