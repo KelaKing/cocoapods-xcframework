@@ -35,7 +35,7 @@ module Pod
           source = xcframework_hash[spec.root.name]
           spec.attributes_hash['source_files'] = []
           spec.attributes_hash['source'] = { http: source }
-          spec.attributes_hash['vendored_frameworks'] = "#{spec.root.name}.xcframework"
+          spec.attributes_hash['vendored_frameworks'] = "**/#{spec.root.name}.xcframework"
         end
       end
     end
